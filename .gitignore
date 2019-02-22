@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,c,c++,cmake
-# Edit at https://www.gitignore.io/?templates=vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,c,c++,cmake
+# Created by https://www.gitignore.io/api/vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,exercism,c,c++,cmake
+# Edit at https://www.gitignore.io/?templates=vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,exercism,c,c++,cmake
 
 ### C ###
 # Prerequisites
@@ -212,6 +212,13 @@ flycheck_*.el
 # network security
 /network-security.data
 
+
+### Exercism ###
+# gitignore template for Exercism project
+# website: https://exercism.io/
+
+# Ignore .exercism folder which contain sensitive data
+.exercism
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -685,4 +692,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,c,c++,cmake
+# End of https://www.gitignore.io/api/vim,osx,linux,emacs,nanoc,eclipse,windows,intellij,jetbrains,sublimetext,intellij+iml,intellij+all,jetbrains+iml,jetbrains+all,microsoftoffice,exercism,c,c++,cmake
