@@ -1,4 +1,41 @@
+use std::collections::HashSet;
 use raindrops;
+
+#[test]
+fn test_determine_factors_of_2() {
+    let expected: HashSet<u32> = vec!(1, 2).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(2));;
+}
+
+#[test]
+fn test_determine_factors_of_3() {
+    let expected: HashSet<u32> = vec!(1, 3).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(3));;
+}
+
+#[test]
+fn test_determine_factors_of_4() {
+    let expected: HashSet<u32> = vec!(1, 2, 4).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(4));;
+}
+
+#[test]
+fn test_determine_factors_of_5() {
+    let expected: HashSet<u32> = vec!(1, 5).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(5));;
+}
+
+#[test]
+fn test_determine_factors_of_6() {
+    let expected: HashSet<u32> = vec!(1, 2, 3, 6).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(6));;
+}
+
+#[test]
+fn test_determine_factors_of_7() {
+    let expected: HashSet<u32> = vec!(1, 7).into_iter().collect();
+    assert_eq!(expected, raindrops::determine_factors(7));;
+}
 
 #[test]
 fn test_1() {
