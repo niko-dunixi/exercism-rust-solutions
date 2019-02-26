@@ -1,10 +1,8 @@
 pub fn square(s: u32) -> u64 {
-    if s < 1 || s > 64 {
-        panic!("Square must be between 1 and 64")
-    }
     // The reason this works, is because this essentially
     // just asking what value is enabled at a given binary
     // position.
+    assert!(s >= 1 && s <= 64, "Square must be between 1 and 64");
     return 1u64.rotate_left(s - 1);
 }
 
